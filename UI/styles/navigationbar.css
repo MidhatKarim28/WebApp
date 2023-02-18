@@ -1,0 +1,99 @@
+.navigation-bar {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    align-items: flex-start;
+    object-fit: cover;
+    border-color: transparent;
+    background-image: linear-gradient(180deg, rgba(7, 37, 65, 1) 0%, rgba(54, 119, 147, 1) 100%, rgba(88, 176, 205, 1) 100%, rgba(4, 4, 4, 0) 100%, rgba(4, 4, 4, 0) 100%);
+  }
+.profile-svg {
+    top: 75px;
+    left: 51px;
+    width: 183;
+    height: 179;
+    position: absolute;
+  }
+  .dashboard {
+    top: 510px;
+    left: 19px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+  .settings {
+    top: 598px;
+    left: 19px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+  .logout {
+    top: 685px;
+    left: 19px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+  .attendance {
+    top: 422px;
+    left: 19px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+  .myprofile {
+    top: 334px;
+    left: 19px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-color: transparent;
+  }
+.text-settings {
+    top: 616px;
+  }
+.text-logout {
+    top: 696px;
+  }
+.text-attendance{
+    top: 439px;
+  }
+.text-profile {
+    top: 349px;
+  }
+.text-dashboard {
+    top: 528px;
+  }
+.navigation-text{
+    left: 97px;
+    color: rgba(255, 255, 255, 1);
+    width: 165px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700px;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }

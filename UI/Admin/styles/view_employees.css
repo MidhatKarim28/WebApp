@@ -1,0 +1,41 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .text{
+    color: rgba(44, 88, 90, 1);
+  }
+
+  .heading{
+    color:#399E61;
+  }
+
+  .button {
+    background-color: rgba(44, 88, 90, 1);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+  }
+
+  .button:hover {
+    background-color:rgb(59, 132, 136);
+    color: white;
+  }
